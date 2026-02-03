@@ -1,0 +1,25 @@
+{
+    "name": "skill-loader",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx src/index.ts",
+        "build": "tsc --noEmit",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@langchain/core": "latest",
+        "@langchain/openai": "latest",
+        "deepagents": "latest",
+        "dotenv": "latest",
+        "langchain": "latest",
+        "yaml": "latest",
+        "zod": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "tsx": "^4.21.0",
+        "typescript": "latest"
+    },
+    "packageManager": "pnpm@10.28.2"
+}
